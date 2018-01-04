@@ -43,6 +43,47 @@
      
 14. <img class="class1 class2"> // MULTIPLE CLASSES
 
+15. // BORDER RADIUS 
+    border-radius: 10px;  // square with circular edges
+    border-radius: 50%;   // circular image (perfectly circular)
+    
+16. // ADDING EXTERNAL LINKS WITH SUBJECTS
+<p> <a href="http://freecatphotoapp.com">cat photos </a> </p>
+<a href=""> some text </a>
+
+17.// Nesting just means putting one element inside of another element.
+<p>View more
+<a href="http://www.freecatphotoapp.com">cat photos</a>
+</p>
+
+// VIEW MORE cat photos .  (cat photos becomes a link to another site)
+ 
+ 18. // DEAD LINKS TO PLACE LINKS LATER
+ <a href = "#"> </a>
+ 
+ 19. // TURNING IMAGES INTO LINKS
+ <a href="#">
+  <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
+  </a>
+  
+ 20. // BULLETTED UNORDERED LIST
+ <ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+
+21. // ORDERED LIST
+<ol>
+  <li>Garfield</li> // 1.    2.     3.     4. 
+  <li>Sylvester</li>
+</ol>
+ 
+22. // CREATING TEXT FIELDS FOR USER TO ENTER INFORMATION (BOXES)
+ <input type="text">
+
+23. // PLACEHOLDERS FOR INPUT FIELDS
+<input type="text" placeholder="this is placeholder text">
+
 
 
 
