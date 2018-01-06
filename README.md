@@ -84,7 +84,30 @@
 23. // PLACEHOLDERS FOR INPUT FIELDS
 <input type="text" placeholder="this is placeholder text">
 
+24. // You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element.
 
+//For example:
 
+<form action="/url-where-you-want-to-submit-form-data"></form>
 
+<form action="/submit-cat-photo">
+  
+<input type="text" placeholder="cat photo URL">
 
+</form>
+
+25. // Add a Submit Button to a Form
+
+<form action="/submit-cat-photo"> // what it will do
+  
+  <input type="text" placeholder="cat photo URL"> // information input and information holder
+  
+  <button type="submit">submit</button> // button to submit the information
+  
+</form>
+
+26. // Use HTML5 to Require a Field
+
+<input type="text" required>
+
+// unless text is entered, nothing will happen
