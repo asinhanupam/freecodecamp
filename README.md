@@ -111,3 +111,17 @@
 <input type="text" required>
 
 // unless text is entered, nothing will happen
+
+27. // CREATING RADIO BUTTONS
+<form>
+  <label>
+    <input type="radio" name= "indoor-outdoor">
+    Indoor
+  </label>
+    
+  <label>
+    <input type="radio" name= "indoor-outdoor">
+    Outdoor
+  </label>
+  
+  </form>
